@@ -1,0 +1,62 @@
+
+.nav-pills .nav-link{
+    color: grey;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    width: 700px;
+    margin: auto;
+    margin-top: 50px;
+    border: lightgray;
+}
+
+.postHeader {
+    display: flex;
+}
+
+.profileName {
+    font-family: "Roboto", sans-serif;
+}
+
+.pic {
+    border-radius: 50%;
+}
+
+.postHeader div:first-child {
+    padding: 10px;
+}
+
+.postHeader div:last-child {
+    flex-grow: 1;
+    text-align: right;
+    padding: 20px;
+}
+
+.icons {
+    display: flex;
+}
+
+.leftIcons {
+    flex-grow: 2;
+    padding-left: 10px;
+}
+
+.fa-heart-o, .fa-comment-o {
+    padding: 5 5 0 0px;
+}
+
+.rightIcon {
+    padding-right: 10px;
+    padding-top: 5px;
+}
+
+.postBody p {
+    margin: 0;
+    padding: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
